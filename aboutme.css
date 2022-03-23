@@ -1,10 +1,13 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(bg.jpg) no-repeat;
+    background-image: url("https://picsum.photos/1920/1080.jpg");
     background-size: cover;
-  }
-  .box{
+}
+
+
+.box{
+    backdrop-filter: blur(10px);
     width: 450px;
     background: rgba(0, 0, 0, 0.4);
     padding: 40px;
@@ -48,5 +51,5 @@ body{
     transition: all ease-in-out 250ms;
   }
   .box li a:hover{
-    color: #b9b9b9;
+    color: lightblue;
   }
